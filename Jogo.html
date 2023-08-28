@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Player</title>
+    <!-- Fonte Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <!-- Fim Fonte Google -->
+        <link rel="stylesheet" href="./src/CSS/MPstyles.css">
+        <link rel="stylesheet" href="./dist/sweetalert2.min.css">
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./src/Imagens/Favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./src/Imagens/Favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./src/Imagens/Favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./src/Imagens/Favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./src/Imagens/Favicon/mstile-310x310.png" />
+</head>
+<body>
+    <main>
+        <div class="bloco-principal" onload="Onload()">
+            <div class="carta">
+                <p id="nome" class="titulo"></p>
+                <p id="descricao" class="texto"></p>
+            </div>
+            <div class="botoes">
+                <div class="nao">
+                    <button type="button" id="botaoNao" class="botao negativo" onclick="CliqueBotao(); cliqueNao()"></button>
+                </div>
+                <div class="sim">
+                    <button type="button" id="botaoSim" class="botao afirmativo" onclick="CliqueBotao(); cliqueSim()"></button>
+                </div>
+            </div>
+            <div class="grid-stats">
+                <div class="statInf renda">
+                        <div class="indicador barra-renda" id="barra-renda" style="position: absolute;"></div>
+                        <img src="./src/Imagens/sifrao.svg" alt="" class="icone imgbarra img-renda">
+                </div>
+                <div class="statInf investidor">
+                    <div class="indicador barra-investidor" id="barra-investidor"></div>
+                    <img src="./src/Imagens/homem.svg" alt="" class="icone imgbarra img-investidor">
+                </div>
+                <div class="statInf cliente">
+                    <div class="indicador barra-cliente" id="barra-cliente"></div>
+                    <img src="./src/Imagens/happy faace.svg" alt="" class="icone imgbarra img-cliente">
+                </div>
+                <div class="statInf funcionario">
+                    <div class="indicador barra-funcionario" id="barra-funcionario"></div>
+                    <img src="./src/Imagens/computer.svg" alt="" class=" icone imgbarra img-funcionario">
+                </div>
+                <div class="statInf popularidade">
+                    <div class="indicador barra-popularidade" id="barra-popularidade"></div>
+                    <img src="./src/Imagens/estrela.svg" alt="" class="icone imgbarra img-popularidade">
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="stats-detalhado">
+            <div class="statLat renda">
+                <img src="./src/Imagens/sifrao.svg" alt="" class="icone imgbarra img-renda">
+                <p>RENDA:
+                    <br>
+                    <br>
+                    <span id="spanRenda" class="spanRenda">R$ 0,00</span>
+                </p>
+            </div>
+            <div class="statLat investidor">
+                <img src="./src/Imagens/homem.svg" alt="" class="icone imgbarra img-investidor">                
+                <p>Satisfa&ccedil;&atilde;o Investidor:
+                    <br><br>
+                    <span id="spanInvestidor" class="spanInvestidor">0%</span>
+                </p>
+            </div>
+            <div class="statLat cliente">
+                <img src="./src/Imagens/happy faace.svg" alt="" class="icone imgbarra img-cliente">
+                <p>Satisfa&ccedil;&atilde;o Cliente:
+                    <br>
+                    <br>
+                    <span id="spanCliente" class="spanCliente">0%</span> 
+                </p>
+            </div>
+            <div class="statLat funcionario">
+                <img src="./src/Imagens/computer.svg" alt="" class=" icone imgbarra img-funcionario">
+                <p>
+                    Satisfa&ccedil;&atilde;o Funcion&aacute;rio:
+                    <br><br>
+                    <span id="spanFuncionario" class="spanFuncionario">0%</span>
+                </p>
+            </div>
+            <div class="statLat popularidade">
+                <img src="./src/Imagens/estrela.svg" alt="" class="icone imgbarra img-popularidade">
+                <p>Popularidade:
+                    <br>
+                    <br>
+                    <span id="spanPopularidade" class="spanPopularidade">0%</span>
+                </p>
+            </div>
+        </div>
+    </aside>
+    <!-- <script src="./src/JS/BarraStats.js"></script> -->
+    <script src="./src/JS/fetchAPI.js"></script>
+    <script src="./dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

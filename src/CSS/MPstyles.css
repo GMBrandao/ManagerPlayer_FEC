@@ -1,0 +1,221 @@
+*{
+    font-family: 'Silkscreen', cursive;
+}
+
+html{ 
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+body{
+    background-image: url("../Imagens/Background-teste.png");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Silkscreen', cursive;
+    color: #ddd;
+}
+
+.bloco-principal{
+    background-color: #444;
+    width:40%;
+    right: 30%;
+    left: 30%;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    border: 4px solid #222;
+}
+
+.carta{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    position: absolute;
+    font-size: 48px;
+    font-weight: 800;
+    top: 10%;
+    text-align: center;
+    color: #c0ad0b;
+    white-space: pre-line;
+}
+
+.texto{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 40%;
+    white-space: pre-line;
+}
+
+.bloco-principal .botoes{
+    display: flex;
+    width: 100%;
+    height: 18%;
+    bottom: 15%;
+    position: absolute;
+}
+
+.botoes div{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+}
+
+.botao {
+    max-height: 100%;
+    min-height: 100%;
+    align-self: end;
+    margin: 0 auto;
+    min-width: 90%;
+    max-width: 90%;
+    white-space: pre-line;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ddd;
+    border-radius: 6px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.afirmativo{
+    background-color: #00bb00;
+    border: solid 5px #115001;
+}
+.afirmativo:hover{
+    cursor: pointer;
+    background-color: #115001;
+}
+.negativo{
+    background-color: #ff0000;
+    border: solid 5px #830303;
+}
+.negativo:hover{
+    cursor: pointer;
+    background-color: #830303;
+}
+.botao:active{
+    transform: translate(3px, 1px);
+}
+
+.grid-stats{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 15vh;
+    border-width: 4px 0 0 0;
+    border-color: #222;
+    border-style: solid;
+    display: flex;
+    max-width: 40vw;
+}
+
+.statInf{
+    width: 8vw;
+    height: 15vh;
+    border: 0 solid #222;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+.statInf img{
+    position: relative; 
+    margin: auto auto; 
+    height:100%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.indicador{
+    background-image: url("../Imagens/images.jpg");
+    margin: 0;
+    z-index: 4;
+    position:absolute;
+    width:100%;
+}
+
+/* #barra-renda{
+    position: fixed;
+    background-color: #85bb65;
+    max-height: 100% !important;
+    min-height: 0% !important;
+} */
+
+.barra-investidor{
+    background-color: #055abb;
+    max-height: 100% !important;
+    min-height: 0% !important;
+}
+
+.barra-cliente{
+    background-color: #0dc43a;
+    max-height: 100% !important;
+    min-height: 0% !important;
+}
+
+.barra-funcionario{
+    background-color: #49181f;
+    max-height: 100% !important;
+    min-height: 0% !important;
+}
+
+.barra-popularidade{
+    background-color: #dbc714;
+    max-height: 100% !important;
+    min-height: 0% !important;
+}
+
+.stats-detalhado{
+    color: #ddd;
+    /*display: none;
+    Trocar para none se funcionar as barras*/
+    display: grid;
+    left: 2%;
+    width: 26%;
+    background: #444;
+    top: 12.5%;
+    bottom: 12.5%;
+    position: absolute;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(5, 20%);
+}
+
+.statLat p{
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+}
+.statLat span{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.stats-detalhado img{
+    margin: auto 10px auto 10px;
+    float: left;
+}
+
+.stats-detalhado .statLat{
+    border-top: solid 2px #222;
+    border-bottom: solid 2px #222;
+    border-right: solid 4px #222;
+    border-left: solid 4px #222;
+    display: flex;
+}
+.statLat.renda{border-top: solid 4px #222;}
+.statLat.popularidade{border-bottom: solid 4px #222;}
+
+.imgbarra{
+    height: fit-content;
+    max-height: 12vh;
+    justify-content: center;
+}

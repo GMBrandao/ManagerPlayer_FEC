@@ -1,0 +1,1073 @@
+[
+{
+    "Nome": "Agiota com Alzheimer",
+    "Descricao": "O dinheiro não dá felicidade, mas paga tudo o que ela gasta.",
+    "OpcaoPositiva": "Fechar contrato.",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": 200000
+    },
+    "OpcaoNegativa": "Chamar a polícia",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Primo do interior",
+    "Descricao": "O meu bitelo arruma um serviço pro primo?",
+    "OpcaoPositiva": "Contratar novo coordenador geral.",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -20,
+        "satisfacaoInvestidor": -20,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Entro em contato mais tarde.",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Advogado corrupto",
+    "Descricao": "Sonegar imposto é legítima defesa.",
+    "OpcaoPositiva": "Parece uma ótima ideia.",
+    "RespostaPositiva": {
+        "popularidade": -10,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 25,
+        "renda": 50000
+    },
+    "OpcaoNegativa": "Contratar novo advogado.",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -20,
+        "renda": -50000
+    },
+    "Status": true
+},
+{
+    "Nome": "Venoninho X treme",
+    "Descricao": "O que acha de fecharmos uma parceria?",
+    "OpcaoPositiva": "Enviar novo jogo desenvolvido.",
+    "RespostaPositiva": {
+        "popularidade": 15,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -5,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Não fechamos negócio com falidos.",
+    "RespostaNegativa": {
+        "popularidade": -20,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Equipe de marketing",
+    "Descricao": "Cuidaremos das suas redes sociais.",
+    "OpcaoPositiva": "Fechar acordo.",
+    "RespostaPositiva": {
+        "popularidade": 25,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 0,
+        "renda": -100000
+    },
+    "OpcaoNegativa": "Quem gasta dinheiro com isso?",
+    "RespostaNegativa": {
+        "popularidade": -15,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Baphomet",
+    "Descricao": "Está preparado para receber toda sabedoria necessária?",
+    "OpcaoPositiva": "Vender alma.",
+    "RespostaPositiva": {
+        "popularidade": 25,
+        "satisfacaoCliente": 25,
+        "satisfacaoFuncionario": 25,
+        "satisfacaoInvestidor": 25,
+        "renda": -250000
+    },
+    "OpcaoNegativa": "Esta repreendido!",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -25,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Assassino de aluguel.",
+    "Descricao": "Que tal derrubar a concorrência?",
+    "OpcaoPositiva": "Nosso alvo será o dono da Mico Soft LTDA.",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 15,
+        "renda": -100000
+    },
+    "OpcaoNegativa": "Talvez em um futuro próximo.",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Hackerman.",
+    "Descricao": "Tenho provas que a Fony está lavando dinheiro.",
+    "OpcaoPositiva": "Vazar informações.",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 10,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Pagar para excluir as provas.",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": -15,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Vendedor da Casas Bahia.",
+    "Descricao": "O que acha de comprar uma máquina de café expresso?",
+    "OpcaoPositiva": "Shut up and take my money!",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 20,
+        "satisfacaoInvestidor": 0,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Poderia parar de ligar oferecendo coisas inúteis?",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -10,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "????????????????",
+    "Descricao": "@#($^!@#(&$^!@",
+    "OpcaoPositiva": "Aceito",
+    "RespostaPositiva": {
+        "popularidade": 1,
+        "satisfacaoCliente": 1,
+        "satisfacaoFuncionario": 1,
+        "satisfacaoInvestidor": 1,
+        "renda": 1000
+    },
+    "OpcaoNegativa": "Recuso",
+    "RespostaNegativa": {
+        "popularidade": -100,
+        "satisfacaoCliente": -100,
+        "satisfacaoFuncionario": -100,
+        "satisfacaoInvestidor": -100,
+        "renda": -1000000
+    },
+    "Status": true
+},
+{
+    "Nome": "Estagiário no primeiro dia",
+    "Descricao": "Estagiário tropeça no cabo de rede",
+    "OpcaoPositiva": "Mantém dentro da empresa",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": -10,
+        "satisfacaoInvestidor": -5,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Demitir e mandar desistir da área",
+    "RespostaNegativa": {
+        "popularidade": -15,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 5,
+        "renda": -10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Pirataria atrapalhando os negócios",
+    "Descricao": "Começa uma onda de pirataria, o que faremos para resolver?",
+    "OpcaoPositiva": "Diminuiremos o valor dos jogos",
+    "RespostaPositiva": {
+        "popularidade": 20,
+        "satisfacaoCliente": 20,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -5,
+        "renda": -125000
+    },
+    "OpcaoNegativa": "Processaremos os envolvidos",
+    "RespostaNegativa": {
+        "popularidade": -10,
+        "satisfacaoCliente": -20,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 5,
+        "renda": -25000
+    },
+    "Status": true
+},
+{
+    "Nome": "Influencers na empresa?",
+    "Descricao": "Contrataremos influencers para promover nossos jogos?",
+    "OpcaoPositiva": "Chamar o Alanzoka para fazer propaganda dos jogos",
+    "RespostaPositiva": {
+        "popularidade": 20,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": -25000
+    },
+    "OpcaoNegativa": "Chamar o Felps para promover!",
+    "RespostaNegativa": {
+        "popularidade": -10,
+        "satisfacaoCliente": -20,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": -15,
+        "renda": -25000
+    },
+    "Status": true
+},
+{
+    "Nome": "Folgas",
+    "Descricao": "Dia de folga",
+    "OpcaoPositiva": "Daremos um dia de folga extra aos funcionários",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 20,
+        "satisfacaoInvestidor": -20,
+        "renda": -75000
+    },
+    "OpcaoNegativa": "Não haverá folgas extras na empresa!",
+    "RespostaNegativa": {
+        "popularidade": -10,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -20,
+        "satisfacaoInvestidor": 15,
+        "renda": 25000
+    },
+    "Status": true
+},
+{
+    "Nome": "Dia de festa",
+    "Descricao": "Quais presentes daremos aos funcionários?",
+    "OpcaoPositiva": "Dar um bônus aos colaboradores",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 15,
+        "satisfacaoInvestidor": 0,
+        "renda": -50000
+    },
+    "OpcaoNegativa": "Dar um chaveiro da empresa!",
+    "RespostaNegativa": {
+        "popularidade": -5,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Bugs no jogo?",
+    "Descricao": "Reclamações dos clientes dos bugs no jogo",
+    "OpcaoPositiva": "Atualizar e fazer as correções do jogo",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 20,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 5,
+        "renda": -25000
+    },
+    "OpcaoNegativa": "Tirar o jogo de linha!",
+    "RespostaNegativa": {
+        "popularidade": -15,
+        "satisfacaoCliente": -25,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 0,
+        "renda": -10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Expandindo os Horizontes",
+    "Descricao": "Recebemos uma proposta de expandir a empresa",
+    "OpcaoPositiva": "Aceitar a proposta e abrir franquias",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 15,
+        "renda": -100000
+    },
+    "OpcaoNegativa": "Recusar a proposta",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": -20,
+        "renda": 50000
+    },
+    "Status": true
+},
+{
+    "Nome": "Assalto na empresa",
+    "Descricao": "Fomos assaltados, o que faremos?",
+    "OpcaoPositiva": "Aprimoraremos a segurança",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 10,
+        "renda": -100000
+    },
+    "OpcaoNegativa": "Contratar um guarda novo",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": -15,
+        "satisfacaoInvestidor": -15,
+        "renda": -25000
+    },
+    "Status": true
+},
+{
+    "Nome": "Reformar a empresa?",
+    "Descricao": "Que tal dar uma nova cara para a empresa?",
+    "OpcaoPositiva": "Reformar a empresa e colocar uma cor destaque",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 15,
+        "satisfacaoInvestidor": -10,
+        "renda": 25000
+    },
+    "OpcaoNegativa": "Manter a empresa da mesma maneira",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 5,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Nova linha de jogos!!",
+    "Descricao": "Que tal um jogo de terror?",
+    "OpcaoPositiva": "Criar um jogo de terror assustador",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Criar o jogo de terror não muito assustador!",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Sobrinho do investidor!",
+    "Descricao": "Abre uma vaga de desenvolvedor e um do seus investidores quer colocar o sobrinho para trabalhar",
+    "OpcaoPositiva": "Fazer processo seletivo",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Aceitar sobrinho que não participou do processo",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Funcionário Desajeitado!",
+    "Descricao": "Um dos seus funcionários derrubou café no computador!!",
+    "OpcaoPositiva": "Acidentes Acontecem",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": -10,
+        "renda": -25000
+    },
+    "OpcaoNegativa": "Demiti-lo como exemplo para os outros",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -10,
+        "satisfacaoInvestidor": 10,
+        "renda": 10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Cachorro",
+    "Descricao": "Um cachorro entra na sua empresa e caga no saguão!!",
+    "OpcaoPositiva": "Limpar",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 1,
+        "satisfacaoInvestidor": 1,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Deixar, pois você é estranho",
+    "RespostaNegativa": {
+        "popularidade": 20,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": -5,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Black Friday!!",
+    "Descricao": "Está chegando a Black Friday",
+    "OpcaoPositiva": "Participar e não mudar nenhum preço",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 15,
+        "renda": 150000
+    },
+    "OpcaoNegativa": "Não quero ganhar dinheiro",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Confraternização!!",
+    "Descricao": "Está chegando a festa de confraternização!!",
+    "OpcaoPositiva": "Fazer a festa e deixar seus funcionários felizes",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 5,
+        "renda": 10000
+    },
+    "OpcaoNegativa": "Não fazer a festa, NÃO SOU OBRIGADO",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Estágios",
+    "Descricao": "Vaga de estágio abriu!!",
+    "OpcaoPositiva": "Processo seletivo normal",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 5,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Colocar que você quer experiência na área",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Tia",
+    "Descricao": "Uma Tia que te carregou no colo pede uma ajuda financeira",
+    "OpcaoPositiva": "Ajudar, pois ela me carregou",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": -2,
+        "renda": -25000
+    },
+    "OpcaoNegativa": "Eu não",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Cliente Chato",
+    "Descricao": "Um cliente seu não para de ligar para falar mal dos seus produtos",
+    "OpcaoPositiva": "Tentar ajudar sempre mantendo a calma",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 5,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Contratar o Assassino de Aluguel",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 0,
+        "renda": -10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Celso Russomanno",
+    "Descricao": "Celso Russomanno está na porta da sua empresa querendo comprar só o DVD sem a capa",
+    "OpcaoPositiva": "Da o DVD logo para ele ir embora",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Ficar brigando até ele chamar a polícia",
+    "RespostaNegativa": {
+        "popularidade": 15,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 0,
+        "renda": -10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Allan Jesus",
+    "Descricao": "Allan Jesus quer fazer uma parceria com você, porém ele não deixará você ler o contrato",
+    "OpcaoPositiva": "Claro que não",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 10,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Vamos ver o que vai dar",
+    "RespostaNegativa": {
+        "popularidade": 5,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 10,
+        "renda": 100000
+    },
+    "Status": true
+},
+{
+    "Nome": "Café",
+    "Descricao": "Sua máquina de café QUEBROU e seus funcionários estão bravos",
+    "OpcaoPositiva": "Arrumar, pois café é vida",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 5,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Arruma o café, por favor",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 5,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Bobby Leite",
+    "Descricao": "Um funcionário roubou e bebeu o leite maternal de uma funcionária.",
+    "OpcaoPositiva": "Abrir um processo",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 0,
+        "renda": 25000
+    },
+    "OpcaoNegativa": "Esconder o caso da mídia",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": -25,
+        "satisfacaoInvestidor": -5,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "RealMotor",
+    "Descricao": "Uma nova e melhorada engine foi lançada.",
+    "OpcaoPositiva": "Manter a agenda atual",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 10,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Colocar em delay os jogos em produção",
+    "RespostaNegativa": {
+        "popularidade": -5,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": -10,
+        "renda": -10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Crise",
+    "Descricao": "Devido a uma crise os investidores estão vendendo nossas ações.",
+    "OpcaoPositiva": "Não influenciar valores das ações",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": -15,
+        "renda": -50000
+    },
+    "OpcaoNegativa": "Antecipar lançamentos",
+    "RespostaNegativa": {
+        "popularidade": -5,
+        "satisfacaoCliente": -10,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 20,
+        "renda": 100000
+    },
+    "Status": true
+},
+{
+    "Nome": "Flop",
+    "Descricao": "Nosso último jogo teve vendas baixas",
+    "OpcaoPositiva": "Investir em marketing",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 5,
+        "renda": -25000
+    },
+    "OpcaoNegativa": "Lançar DLC",
+    "RespostaNegativa": {
+        "popularidade": 5,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": -10,
+        "satisfacaoInvestidor": 10,
+        "renda": 10000
+    },
+    "Status": true
+},
+{
+    "Nome": "MODS",
+    "Descricao": "Temos infraestrutura para estabelecer uma comunidade de Mods",
+    "OpcaoPositiva": "Investir em comunidade de Mods",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 15,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 0,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Não dar suporte a Mods",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": -10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 10000
+    },
+    "Status": true
+},
+{
+    "Nome": "Nova Perspectiva",
+    "Descricao": "Nosso público está se tornando estável, devemos tentar alcançar um novo?",
+    "OpcaoPositiva": "Lançar uma nova franquia de jogo",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 10,
+        "renda": -50000
+    },
+    "OpcaoNegativa": "Investir no atual público",
+    "RespostaNegativa": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": -50000
+    },
+    "Status": true
+},
+{
+    "Nome": "Vazamento",
+    "Descricao": "O roteiro para o nosso próximo jogo vazou",
+    "OpcaoPositiva": "Processar o informante",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": -10,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 0,
+        "renda": -10000
+    },
+    "OpcaoNegativa": "Negar ser nosso, e iniciar um novo",
+    "RespostaNegativa": {
+        "popularidade": 5,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 0,
+        "renda": -25000
+    },
+    "Status": true
+},
+{
+    "Nome": "Livre Mercado",
+    "Descricao": "Nosso maior rival está comprando novas franquias",
+    "OpcaoPositiva": "Comprar novas para nós",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 5,
+        "renda": -100000
+    },
+    "OpcaoNegativa": "Investir mais nas nossas atuais franquias",
+    "RespostaNegativa": {
+        "popularidade": 5,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": -5,
+        "renda": -50000
+    },
+    "Status": true
+},
+{
+    "Nome": "LootB",
+    "Descricao": "Nossa franquia mais fraca não está gerando lucro",
+    "OpcaoPositiva": "Finalizar franquia",
+    "RespostaPositiva": {
+        "popularidade": -5,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 10,
+        "satisfacaoInvestidor": 15,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Colocar lootBoxes pagas",
+    "RespostaNegativa": {
+        "popularidade": -10,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 20,
+        "renda": 75000
+    },
+    "Status": true
+},
+{
+    "Nome": "Apertado",
+    "Descricao": "O próximo jogo não vai ficar pronto para a data de lançamento",
+    "OpcaoPositiva": "Adiar a data de lançamento",
+    "RespostaPositiva": {
+        "popularidade": -5,
+        "satisfacaoCliente": -10,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Colocar os desenvolvedores em Crunch",
+    "RespostaNegativa": {
+        "popularidade": -5,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": -20,
+        "satisfacaoInvestidor": 15,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Clássico",
+    "Descricao": "A comunidade de um dos nossos jogos clássicos está pedindo um Remake",
+    "OpcaoPositiva": "Investir no remake",
+    "RespostaPositiva": {
+        "popularidade": 15,
+        "satisfacaoCliente": 20,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 0,
+        "renda": -75000
+    },
+    "OpcaoNegativa": "Recusar",
+    "RespostaNegativa": {
+        "popularidade": -5,
+        "satisfacaoCliente": -10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -5,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Pisney",
+    "Descricao": "Uma grande produtora de filmes está querendo um jogo para o mascote deles",
+    "OpcaoPositiva": "Aceitar o pedido",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 20,
+        "renda": 100000
+    },
+    "OpcaoNegativa": "Recusar o pedido",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": -15,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Novos Horizontes",
+    "Descricao": "O atual público nosso no Cazaquistão é mínimo",
+    "OpcaoPositiva": "Investir com marketing no Cazaquistão",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": -50000
+    },
+    "OpcaoNegativa": "Manter foco nos atuais países",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Velha Guarda",
+    "Descricao": "Alguns desenvolvedores antigos nosso estão saindo para criar seus próprios studios",
+    "OpcaoPositiva": "Aumentar salário para desenvolvedores antigos",
+    "RespostaPositiva": {
+        "popularidade": 0,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": 20,
+        "satisfacaoInvestidor": 0,
+        "renda": 25000
+    },
+    "OpcaoNegativa": "Contratar novos desenvolvedores",
+    "RespostaNegativa": {
+        "popularidade": -5,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": -15,
+        "satisfacaoInvestidor": 0,
+        "renda": 10000
+    },
+    "Status": true
+},
+{
+    "Nome": "DLC ferrada",
+    "Descricao": "Uma DLC desbalanceou a economia interna do jogo",
+    "OpcaoPositiva": "Colocar Devs para equilibra-la",
+    "RespostaPositiva": {
+        "popularidade": -5,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 5,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Manter o desbalanceamento",
+    "RespostaNegativa": {
+        "popularidade": 5,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": -5,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "JackPot",
+    "Descricao": "Nosso jogo mais recente é um enorme sucesso",
+    "OpcaoPositiva": "Confirmar sequências",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 5,
+        "satisfacaoInvestidor": 5,
+        "renda": 200000
+    },
+    "OpcaoNegativa": "Lançar DLCs",
+    "RespostaNegativa": {
+        "popularidade": 5,
+        "satisfacaoCliente": 10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": 250000
+    },
+    "Status": true
+},
+{
+    "Nome": "Jogo Infernal",
+    "Descricao": "Alguns consoles estão queimando ao rodar um de nosso jogos",
+    "OpcaoPositiva": "Culpar a produtora dos consoles",
+    "RespostaPositiva": {
+        "popularidade": -5,
+        "satisfacaoCliente": -10,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 0,
+        "renda": 0
+    },
+    "OpcaoNegativa": "Trabalhar em um patch de reparo",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 5,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Brincadeira",
+    "Descricao": "Uma fabricante de brinquedos está pedindo licença de uma de nossas franquias",
+    "OpcaoPositiva": "Ceder licença para produzir brinquedos infantis",
+    "RespostaPositiva": {
+        "popularidade": 5,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": 75000
+    },
+    "OpcaoNegativa": "Recusar",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Meta",
+    "Descricao": "Uma empresa de jogos quer a fez uma oferta para fazer Skins com nossos personagens",
+    "OpcaoPositiva": "Aceitar",
+    "RespostaPositiva": {
+        "popularidade": 10,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": 50000
+    },
+    "OpcaoNegativa": "Recusar",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": 0,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+},
+{
+    "Nome": "Combustível Gamer",
+    "Descricao": "Uma empresa de energéticos quer lançar uma bebida em conjunto a nosso jogo",
+    "OpcaoPositiva": "Patrocinar bebida",
+    "RespostaPositiva": {
+        "popularidade": 15,
+        "satisfacaoCliente": 5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": 10,
+        "renda": -75000
+    },
+    "OpcaoNegativa": "Recusar oferta",
+    "RespostaNegativa": {
+        "popularidade": 0,
+        "satisfacaoCliente": -5,
+        "satisfacaoFuncionario": 0,
+        "satisfacaoInvestidor": -10,
+        "renda": 0
+    },
+    "Status": true
+}
+]
