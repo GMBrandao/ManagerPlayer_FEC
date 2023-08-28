@@ -129,10 +129,10 @@ function cliqueSim(){
 
 function cliqueNao(){
    renda += parseFloat(RespostaNegativa.Renda);
-   investidor += parseFloat(RespostaPositiva.satisfacaoInvestidor);
-   funcionario += parseFloat(RespostaPositiva.satisfacaoFuncionario);
-   cliente += parseFloat(RespostaPositiva.satisfacaoCliente);
-   popularidade += parseFloat(RespostaPositiva.popularidade);
+   investidor += parseFloat(RespostaPositiva.SatisfacaoInvestidor);
+   funcionario += parseFloat(RespostaPositiva.SatisfacaoFuncionario);
+   cliente += parseFloat(RespostaPositiva.SatisfacaoCliente);
+   popularidade += parseFloat(RespostaPositiva.Popularidade);
 
    FinishGame(
       renda/10000,
