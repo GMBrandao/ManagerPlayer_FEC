@@ -8,6 +8,7 @@ let cliente = 50;
 let funcionario = 50;
 let popularidade = 50;
 
+
 function Onload(){
    callAPI();
    Aleatorio();
@@ -25,11 +26,11 @@ function CliqueBotao(){
 
 const callAPI = () => {
    const url = "https://localhost:44307/api/Decisoes"
-
+   let validCard;
    fetch(url)
     .then(response =>response.json ())
     .then(cartas => {
-       criarCarta(cartas[parseInt(Aleatorio(),10)])
+         criarCarta(cartas[parseInt(Aleatorio(),10)])
     })
 }
 callAPI();
@@ -128,10 +129,10 @@ function cliqueSim(){
 
 function cliqueNao(){
    renda += parseFloat(RespostaNegativa.Renda);
-   investidor += parseFloat(RespostaPositiva.SatisfacaoInvestidor);
-   funcionario += parseFloat(RespostaPositiva.SatisfacaoFuncionario);
-   cliente += parseFloat(RespostaPositiva.SatisfacaoCliente);
-   popularidade += parseFloat(RespostaPositiva.Popularidade);
+   investidor += parseFloat(RespostaNegativa.SatisfacaoInvestidor);
+   funcionario += parseFloat(RespostaNegativa.SatisfacaoFuncionario);
+   cliente += parseFloat(RespostaNegativa.SatisfacaoCliente);
+   popularidade += parseFloat(RespostaNegativa.Popularidade);
 
    FinishGame(
       renda/10000,
@@ -159,29 +160,44 @@ function FinishGame(
    if(count > 14)
       popGanhou();
    else{
-      if(renda > 99.99 || renda <= 0)
-         popPerdeu();
+      if(renda >= 100) 
+         popPerdeu('Você trabalhou tão excelentemente que outras empresas ficaram sabendo do nosso lucro, e todo mundo quer uma parte. Parece que daqui a pouco estaremos sob nova geração.');
 
-      if(investidor > 99 || investidor < 1)
-         popPerdeu();
-        
-      if(funcionario > 99 || funcionario < 1)
-         popPerdeu();
-        
-      if(cliente > 99 || cliente < 1)
-         popPerdeu();
+      if(renda <= 0) 
+         popPerdeu('Cara, você está tão pobre que não tem mais dinheiro para pagar o narrador.');
 
-      if(popularidade > 99 || popularidade < 1)
-         popPerdeu();
+      if(investidor > 99) 
+         popPerdeu('Parabéns, seus investidores estão super satisfeitos com as ações da empresa. Agora que não resta mais nada para você fazer por eles, você ganhou umas férias. Não se preocupe com a empresa, eles vão cuidar dela direitinho durante suas férias.');
+
+      if(investidor < 1)
+         popPerdeu('Seus investidores perderam a paciência. Nenhum deles liga para todo o resto que você fez. Do que adianta para eles se as ações estão baixas? Se quiser continuar na empresa, terá que começar do zero, limpando os banheiros dela.');
+        
+      if(funcionario > 99) 
+         popPerdeu('Seus funcionários te amam, eles brilham com energia e criatividade. Já até colocaram seu nome em 14 bebês diferentes. Eles realmente te amam, menos quando você pede para eles trabalharem.');
+
+      if(funcionario < 1)
+         popPerdeu('Seus funcionários te odeiam, a maioria já saiu, e críticas em sites avaliativos da sua empresa são uma coisa diária. Aqueles que ficaram continuam fazendo greves e protestos, outros costumam colocar uma dose extra no seu café.');
+        
+      if(cliente > 99)
+         popPerdeu('Todo o mundo te ama, e seu último projeto recebeu todos os prêmios Nobel. Parabéns! Agora que as expectativas para o seu próximo projeto não podem ser superadas, é só fazer de novo, fácil, certo?... Certo?');
+
+      if(cliente < 1)
+         popPerdeu('Ontem saiu uma matéria no jornal da sua empresa. Nela dizia: "Além da qualidade horripilante de seus projetos e da ética empresarial, o CEO desta empresa é um pedaço de lixo." Foi sua mãe que escreveu.');
+
+      if(popularidade > 99)
+         popPerdeu('Uau, o mundo inteiro conhece sua empresa, mas agora as avaliações dos seus jogos estão sempre baixas. Sua empresa está sendo cancelada e há uma câmera no seu banheiro. Parece que você falhou em agradar o mundo inteiro.');
+
+      if(popularidade < 1)
+         popPerdeu('Nem sequer uma única venda é possível. Seus trabalhadores acham que estão em um escritório de contabilidade. Sua família acha que você está fazendo estágio em vez de... Desculpe, o que você estava fazendo mesmo?');
    }
 }
 
-function popPerdeu(){
+function popPerdeu(frase){
    Swal.fire({
       icon: 'error',
       title: 'Game Over',
       color: '#830303',
-      text:'Não foi dessa vez',
+      text: frase,
       footer:'<a href="./Jogo.html">&#8635; Reiniciar</a>',
       footerColor: '#222222',
       background: '#ddd',
@@ -212,7 +228,7 @@ setTimeout(function info(){
    Swal.fire({
       icon:'question',
       title: 'Como jogar',
-      text: 'Jogue como o dono de uma empresa de jogos em situações aleatórias e com suas decisões você poderá ganhar ou perder.',
+      text: 'Jogue como o dono de uma empresa de jogos em situações aleatórias, não deixe seus status abaixo de 0% ou acima de 100%.',
       background: '#ddd',
       confirmButtonColor: '#00bb00',
       confirmButtonText:'JOGAR'
