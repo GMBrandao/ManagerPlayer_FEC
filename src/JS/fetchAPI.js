@@ -16,7 +16,6 @@ function Onload(){
    barra_investidor();
    barra_funcionario();
    barra_popularidade();
-   info();
 }
 
 function CliqueBotao(){
@@ -199,7 +198,7 @@ function popGanhou(){
       title: 'Parabéns',
       color: '#00bb00',
       footer:'<a href="./Jogo.html">&#8635; Reiniciar</a>',
-      text: 'Você ganhou!',
+      text: 'Você fez isso! Como o visionário dono da Manager Player, transformou um modesto início em um império global da diversão digital. A equipe agradece por sua incrível jornada de sucesso! O futuro nos reserva coisas incríveis!',
       footerColor: '#222222',
       background: '#ddd',
       allowOutsideClick: false,
