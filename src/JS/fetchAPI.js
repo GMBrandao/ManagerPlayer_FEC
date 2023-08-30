@@ -7,7 +7,7 @@ let investidor = 50;
 let cliente = 50;
 let funcionario = 50;
 let popularidade = 50;
-
+let listaCartas;
 
 function Onload(){
    callAPI();
@@ -20,20 +20,31 @@ function Onload(){
 }
 
 function CliqueBotao(){
-   callAPI();
+   selecionaCarta();
    Aleatorio();
 }
 
 const callAPI = () => {
-   const url = "https://localhost:44307/api/Decisoes"
-   let validCard;
+   const url = "https://localhost:44307/api/Decisoes";
    fetch(url)
     .then(response =>response.json ())
     .then(cartas => {
-         criarCarta(cartas[parseInt(Aleatorio(),10)])
+         listaCartas = cartas;
+         console.log(listaCartas);
+         selecionaCarta();
     })
 }
 callAPI();
+
+function selecionaCarta(){
+   
+   let validCard = listaCartas[parseInt(Aleatorio(),10)];
+
+   if(validCard.Status)
+      criarCarta(validCard);
+   else
+      selecionaCarta();
+}
 
 const barra_renda = () =>{
    const bar_renda = document.getElementById("barra-renda");
@@ -88,7 +99,7 @@ function Aleatorio(){
    return randomNumber;
 }
 
-function criarCarta(cartas) {
+function criarCarta(carta) {
    const nome = document.getElementById("nome");
    const descricao = document.getElementById("descricao");
    const positivo = document.getElementById("botaoSim");
@@ -96,13 +107,15 @@ function criarCarta(cartas) {
    
    count += 1;
 
-   nome.innerHTML = cartas.Nome;
-   negativo.innerHTML = cartas.OpcaoNegativa;
-   positivo.innerHTML = cartas.OpcaoPositiva;
-   descricao.innerHTML = cartas.Descricao;
+   nome.innerHTML = carta.Nome;
+   negativo.innerHTML = carta.OpcaoNegativa;
+   positivo.innerHTML = carta.OpcaoPositiva;
+   descricao.innerHTML = carta.Descricao;
    
-   RespostaPositiva = JSON.parse(cartas.RespostaPositiva);
-   RespostaNegativa = JSON.parse(cartas.RespostaNegativa);
+   RespostaPositiva = JSON.parse(carta.RespostaPositiva);
+   RespostaNegativa = JSON.parse(carta.RespostaNegativa);
+   carta.Status = false;
+   console.log(carta);
 }
 
 function cliqueSim(){
@@ -112,13 +125,13 @@ function cliqueSim(){
    cliente += parseFloat(RespostaPositiva.SatisfacaoCliente);
    popularidade += parseFloat(RespostaPositiva.Popularidade);
 
-   FinishGame(
-      renda/10000,
-      investidor,
-      funcionario,
-      cliente,
-      popularidade
-   );
+   // FinishGame(
+   //    renda/10000,
+   //    investidor,
+   //    funcionario,
+   //    cliente,
+   //    popularidade
+   // );
 
    barra_renda();
    barra_cliente();
