@@ -11,17 +11,12 @@ let listaCartas;
 
 function Onload(){
    callAPI();
-   Aleatorio();
+   selecionaCarta();
    barra_renda();
    barra_cliente();
    barra_investidor();
    barra_funcionario();
    barra_popularidade();
-}
-
-function CliqueBotao(){
-   selecionaCarta();
-   Aleatorio();
 }
 
 const callAPI = () => {
@@ -30,7 +25,6 @@ const callAPI = () => {
     .then(response =>response.json ())
     .then(cartas => {
          listaCartas = cartas;
-         console.log(listaCartas);
          selecionaCarta();
     })
 }
@@ -115,7 +109,6 @@ function criarCarta(carta) {
    RespostaPositiva = JSON.parse(carta.RespostaPositiva);
    RespostaNegativa = JSON.parse(carta.RespostaNegativa);
    carta.Status = false;
-   console.log(carta);
 }
 
 function cliqueSim(){
@@ -125,13 +118,13 @@ function cliqueSim(){
    cliente += parseFloat(RespostaPositiva.SatisfacaoCliente);
    popularidade += parseFloat(RespostaPositiva.Popularidade);
 
-   // FinishGame(
-   //    renda/10000,
-   //    investidor,
-   //    funcionario,
-   //    cliente,
-   //    popularidade
-   // );
+   FinishGame(
+      renda/10000,
+      investidor,
+      funcionario,
+      cliente,
+      popularidade
+   );
 
    barra_renda();
    barra_cliente();
