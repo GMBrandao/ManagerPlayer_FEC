@@ -36,7 +36,6 @@ function selecionaCarta(){
 
    if(validCard.Status){
       criarCarta(validCard);
-      console.log("oi");
    }
    else
       selecionaCarta();
@@ -91,7 +90,6 @@ barra_popularidade();
 
 function Aleatorio(){
    randomNumber = Math.floor(Math.random()*51);
-   console.log("random " + randomNumber);
    return randomNumber;
 }
 
@@ -102,7 +100,6 @@ function criarCarta(carta) {
    const negativo = document.getElementById("botaoNao");
    
    count += 1;
-   console.log(count);
 
    nome.innerHTML = carta.Nome;
    negativo.innerHTML = carta.OpcaoNegativa;
