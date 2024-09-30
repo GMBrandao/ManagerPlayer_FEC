@@ -50,7 +50,7 @@ namespace ManagePlayer.Domain.Service
             {
                 return _decisoesRepository.GetQuestions();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
