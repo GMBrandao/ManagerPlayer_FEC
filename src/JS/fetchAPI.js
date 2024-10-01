@@ -48,7 +48,7 @@ const barra_renda = () =>{
    num_renda.innerHTML = ("R$ "+ parseFloat(renda)
       .toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: 2 }));
    
-      bar_renda.style.heigth = `${(parseFloat(renda) / 10000.00)}%`;
+      bar_renda.style.height = `${(parseFloat(renda) / 10000.00)}%`;
 }
 barra_renda();
 
@@ -57,7 +57,7 @@ const barra_investidor = () =>{
    const num_investidor = document.getElementById("spanInvestidor");
 
    num_investidor.innerHTML = (investidor + "%");
-   bar_investidor.style.heigth = `${investidor}%`;
+   bar_investidor.style.height = `${investidor}%`;
 }
 barra_investidor();
 
@@ -66,7 +66,7 @@ const barra_cliente = () =>{
    const num_cliente = document.getElementById("spanCliente");
 
    num_cliente.innerHTML = (cliente + "%");
-   bar_cliente.style.heigth = `${cliente}%`;
+   bar_cliente.style.height = `${cliente}%`;
 }
 barra_cliente();
 
@@ -75,7 +75,7 @@ const barra_funcionario = () =>{
    const num_cliente = document.getElementById("spanFuncionario");
 
    num_cliente.innerHTML = (funcionario + "%");
-   bar_cliente.style.heigth = `${funcionario}%`;
+   bar_cliente.style.height = `${funcionario}%`;
 }
 barra_funcionario();
 
@@ -84,7 +84,7 @@ const barra_popularidade = () =>{
    const num_cliente = document.getElementById("spanPopularidade");
 
    num_cliente.innerHTML = (popularidade + "%");
-   bar_cliente.style.heigth = `${popularidade}%`;
+   bar_cliente.style.height = `${popularidade}%`;
 }
 barra_popularidade();
 
